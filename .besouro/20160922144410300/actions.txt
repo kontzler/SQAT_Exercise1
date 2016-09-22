@@ -181,3 +181,4 @@ UnitTestCaseAction 1474550204817 TestBowling.java FAIL
 UnitTestSessionAction 1474550204818 TestBowling.java FAIL
 RefactoringAction 1474550218950 TestBowling.java RENAME frames_score_toohigh()=><initializer /1> null
 EditAction 1474550286983 Frame.java 910 6 12 0
+EditAction 1474550287105 TestBowling.java 3797 12 62 11
