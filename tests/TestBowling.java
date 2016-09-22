@@ -77,7 +77,7 @@ public class TestBowling {
 		BowlingGame.addFrame(new Frame(0,0));//6
 		BowlingGame.addFrame(new Frame(0,0));//7
 		BowlingGame.addFrame(new Frame(0,0));//8
-		BowlingGame.addFrame(new Frame(0,0));//9
+		BowlingGame.addFrame(new Frame(10,0));//9
 		BowlingGame.setBonus(3,3);//bonus
 		assertEquals("The score is not correctly calculated, should be 22",22,BowlingGame.score());}
 	
