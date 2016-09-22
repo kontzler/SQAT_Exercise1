@@ -1,0 +1,14 @@
+FileOpenedAction 1474544650513 BowlingGame.java 623 4 1 0
+FileOpenedAction 1474544773180 Frame.java 671 6 7 0
+FileOpenedAction 1474544891675 BowlingException.java 58 0 0 0
+FileOpenedAction 1474545547208 TestBowling.java 165 1 1 0
+RefactoringAction 1474545559236 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1474545563251 TestBowling.java RENAME test()/2=>void Score() METHOD
+RefactoringAction 1474545639538 TestBowling.java RENAME Score()=>void Score_() METHOD
+RefactoringAction 1474545644551 TestBowling.java RENAME Score_()=>void Score_firstthro() METHOD
+RefactoringAction 1474545645564 TestBowling.java RENAME Score_firstthro()=>void Score_firstthrow() METHOD
+RefactoringAction 1474545649084 TestBowling.java RENAME Score_firstthrow()=>void Score_firstthrow1() METHOD
+RefactoringAction 1474545650597 TestBowling.java RENAME Score_firstthrow1()=>void Score_firstthrow1_() METHOD
+RefactoringAction 1474545652610 TestBowling.java RENAME Score_firstthrow1_()=>void Score_firstthrow1_secondthro() METHOD
+RefactoringAction 1474545654122 TestBowling.java RENAME Score_firstthrow1_secondthro()=>void Score_firstthrow1_secondthrow4() METHOD
+EditAction 1474545801352 Frame.java 808 6 11 0
