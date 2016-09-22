@@ -166,3 +166,12 @@ CompilationAction 1474549990610 Frame.java
 CompilationAction 1474549990610 TestBowling.java
 EditAction 1474549990649 TestBowling.java 4018 13 65 12
 EditAction 1474549990756 BowlingException.java 85 0 0 0
+CompilationAction 1474549990865 TestBowling.java
+UnitTestCaseAction 1474549993129 TestBowling.java FAIL
+UnitTestSessionAction 1474549993129 TestBowling.java FAIL
+RefactoringAction 1474550039995 BowlingException.java RENAME TooHigh=>Frame TooHigh() METHOD
+RefactoringAction 1474550042003 BowlingException.java RENAME TooHigh()=>Frame TooHigh FIELD
+RefactoringAction 1474550044510 BowlingException.java RENAME TooHigh=>Frame TooHigh() METHOD
+RefactoringAction 1474550057027 BowlingException.java RENAME TooHigh()=>Frame TooHigh FIELD
+RefactoringAction 1474550183082 BowlingException.java REMOVE TooHigh FIELD
+EditAction 1474550204081 Frame.java 901 6 12 0
