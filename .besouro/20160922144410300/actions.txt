@@ -182,3 +182,18 @@ UnitTestSessionAction 1474550204818 TestBowling.java FAIL
 RefactoringAction 1474550218950 TestBowling.java RENAME frames_score_toohigh()=><initializer /1> null
 EditAction 1474550286983 Frame.java 910 6 12 0
 EditAction 1474550287105 TestBowling.java 3797 12 62 11
+UnitTestCaseAction 1474550287402 TestBowling.java FAIL
+UnitTestSessionAction 1474550287403 TestBowling.java FAIL
+RefactoringAction 1474550383522 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1474550384534 TestBowling.java ADD void test()/3 METHOD
+RefactoringAction 1474550391050 TestBowling.java RENAME test()/3=>void test_() METHOD
+RefactoringAction 1474550393565 TestBowling.java RENAME test_()=>void test_getfi() METHOD
+RefactoringAction 1474550395579 TestBowling.java RENAME test_getfi()=>void test_getfirstthro() METHOD
+RefactoringAction 1474550396588 TestBowling.java RENAME test_getfirstthro()=>void test_getfirstthrow() METHOD
+RefactoringAction 1474550398099 TestBowling.java RENAME test_getfirstthrow()=>void test_getfirstthrow_7() METHOD
+RefactoringAction 1474550462322 TestBowling.java RENAME test()/2=>void test_() METHOD
+RefactoringAction 1474550465833 TestBowling.java RENAME test_()=>void test_getsecond() METHOD
+RefactoringAction 1474550468347 TestBowling.java RENAME test_getsecond()=>void test_getsecondthrow() METHOD
+RefactoringAction 1474550492968 TestBowling.java RENAME test_getsecondthrow()=>void test_getsecondthrow_4() METHOD
+RefactoringAction 1474550621126 TestBowling.java REMOVE test() METHOD
+EditAction 1474550624902 TestBowling.java 4111 13 65 13
