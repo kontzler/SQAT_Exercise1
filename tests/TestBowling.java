@@ -52,7 +52,7 @@ public class TestBowling {
 		BowlingGame.addFrame(new Frame(10,0));
 		BowlingGame.addFrame(new Frame(8,1));
 		System.out.print(BowlingGame.score());
-		assertEquals("The frames didn't get implemented correctly",19, BowlingGame.score());
+		assertEquals("The frames didn't get implemented correctly",28, BowlingGame.score());
 		
 	}
 
