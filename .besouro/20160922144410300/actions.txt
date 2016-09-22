@@ -32,3 +32,11 @@ RefactoringAction 1474545999288 TestBowling.java ADD void Spare_isFalse()/2 METH
 RefactoringAction 1474546004303 TestBowling.java RENAME Spare_istrue()/2=>void Strike_istrue() METHOD
 RefactoringAction 1474546008319 TestBowling.java RENAME Spare_isFalse()/2=>void Strike_isFalse() METHOD
 EditAction 1474546044454 TestBowling.java 1058 6 11 5
+UnitTestCaseAction 1474546044754 TestBowling.java FAIL
+UnitTestSessionAction 1474546044755 TestBowling.java FAIL
+RefactoringAction 1474546696582 TestBowling.java ADD void add FIELD
+RefactoringAction 1474546697596 TestBowling.java RENAME add=>void add_ FIELD
+RefactoringAction 1474546699609 TestBowling.java RENAME add_=>void add_frames FIELD
+RefactoringAction 1474546702623 TestBowling.java RENAME add_frames=>void add_2frames FIELD
+RefactoringAction 1474546705136 TestBowling.java RENAME add_2frames=>void add_2frames() METHOD
+EditAction 1474546925278 Frame.java 808 6 11 0
