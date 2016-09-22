@@ -142,3 +142,4 @@ RefactoringAction 1474549045176 TestBowling.java RENAME Test()=>void Test_game()
 RefactoringAction 1474549047692 TestBowling.java RENAME Test_game()=>void Test_game_score() METHOD
 RefactoringAction 1474549049709 TestBowling.java RENAME Test_game_score()=>void Test_game_score133() METHOD
 EditAction 1474549111799 TestBowling.java 3788 12 62 11
+EditAction 1474549111934 BowlingGame.java 1030 4 6 0
