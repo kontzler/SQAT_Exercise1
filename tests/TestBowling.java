@@ -23,5 +23,11 @@ public class TestBowling {
 		Frame frame = new Frame(5,5);
 		assertEquals("The spare is not correctly detected", true, frame.isSpare());
 	}
+	
+	@Test
+	public void Spare_isFalse() {
+		Frame frame = new Frame(4,5);
+		assertEquals("The shot is not spare but get detected as one", false, frame.isSpare());
+	}
 
 }
