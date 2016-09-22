@@ -37,7 +37,9 @@ public class TestBowling {
 		Frame frame = new Frame(4,1);
 		assertEquals("The shot is not a strike but get detected as one", false, frame.isStrike());
 	}
-	 public void add_frame(){
+	
+	@Test
+	public void add_frame(){
 		 BowlingGame BowlingGame = new BowlingGame();
 		 BowlingGame.addFrame(new Frame(1,2));
 		 assertEquals("The frame wasn't implemented right",3,BowlingGame.score());
@@ -54,6 +56,7 @@ public class TestBowling {
 		
 	}
 	
+	@Test
 	public void strike_score_28(){
 		BowlingGame BowlingGame= new BowlingGame();
 		BowlingGame.addFrame(new Frame(10,0));
@@ -62,6 +65,7 @@ public class TestBowling {
 		
 	}
 	
+	@Test
 	public void bonus_score_28(){
 		BowlingGame BowlingGame= new BowlingGame();
 		BowlingGame.addFrame(new Frame(0,0));//0
@@ -75,7 +79,11 @@ public class TestBowling {
 		BowlingGame.addFrame(new Frame(10,0));//8
 		BowlingGame.addFrame(new Frame(10,0));//9
 		BowlingGame.setBonus(3,3);//bonus
-		assertEquals("The score is not correctly calculated, should be 22",22,BowlingGame.score());
+		assertEquals("The score is not correctly calculated, should be 22",22,BowlingGame.score());}
+	
+}
 	
 
-}
+
+
+
