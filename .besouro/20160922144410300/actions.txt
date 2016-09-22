@@ -161,3 +161,7 @@ RefactoringAction 1474549972707 TestBowling.java RENAME add_frame()/2=>void fram
 RefactoringAction 1474549974722 TestBowling.java RENAME frames()=>void frames_score() METHOD
 RefactoringAction 1474549977242 TestBowling.java RENAME frames_score()=>void frames_score_toohigh() METHOD
 EditAction 1474549990493 Frame.java 926 6 12 0
+CompilationAction 1474549990610 BowlingGame.java
+CompilationAction 1474549990610 Frame.java
+CompilationAction 1474549990610 TestBowling.java
+EditAction 1474549990649 TestBowling.java 4018 13 65 12

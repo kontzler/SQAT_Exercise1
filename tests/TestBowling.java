@@ -47,6 +47,14 @@ public class TestBowling {
 	 }
 	
 	@Test
+	public void frames_score_toohigh(){
+		 BowlingGame BowlingGame = new BowlingGame();
+		 BowlingGame.addFrame(new Frame(10,2));
+		 assertEquals("The frame wasn't implemented right",12,BowlingGame.score());
+		 
+	 }
+	
+	@Test
 	public void add_2frames(){
 		BowlingGame BowlingGame = new BowlingGame();
 		
