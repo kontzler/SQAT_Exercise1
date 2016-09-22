@@ -133,3 +133,12 @@ EditAction 1474548907671 TestBowling.java 3114 11 49 10
 UnitTestCaseAction 1474548907966 TestBowling.java FAIL
 UnitTestSessionAction 1474548907966 TestBowling.java FAIL
 EditAction 1474548967255 BowlingGame.java 1053 4 6 0
+UnitTestCaseAction 1474548967556 TestBowling.java FAIL
+UnitTestSessionAction 1474548967556 TestBowling.java FAIL
+RefactoringAction 1474549015509 TestBowling.java ADD void bonus_score_spare_16()/2 METHOD
+RefactoringAction 1474549041642 TestBowling.java RENAME bonus_score_spare_16()/2=>void T() METHOD
+RefactoringAction 1474549043160 TestBowling.java RENAME T()=>void Test() METHOD
+RefactoringAction 1474549045176 TestBowling.java RENAME Test()=>void Test_game() METHOD
+RefactoringAction 1474549047692 TestBowling.java RENAME Test_game()=>void Test_game_score() METHOD
+RefactoringAction 1474549049709 TestBowling.java RENAME Test_game_score()=>void Test_game_score133() METHOD
+EditAction 1474549111799 TestBowling.java 3788 12 62 11

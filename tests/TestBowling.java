@@ -97,7 +97,25 @@ public class TestBowling {
 		BowlingGame.setBonus(6,3);//bonus
 		assertEquals("The score is not correctly calculated, should be 16",16,BowlingGame.score());}
 	
-}
+
+
+	@Test
+	public void Test_game_score133(){
+		BowlingGame BowlingGame= new BowlingGame();
+		BowlingGame.addFrame(new Frame(1,4));//0
+		BowlingGame.addFrame(new Frame(4,5));//1
+		BowlingGame.addFrame(new Frame(6,4));//2
+		BowlingGame.addFrame(new Frame(5,5));//3
+		BowlingGame.addFrame(new Frame(10,0));//4
+		BowlingGame.addFrame(new Frame(0,1));//5
+		BowlingGame.addFrame(new Frame(7,3));//6
+		BowlingGame.addFrame(new Frame(6,4));//7
+		BowlingGame.addFrame(new Frame(10,0));//8
+		BowlingGame.addFrame(new Frame(2,8));//9
+		BowlingGame.setBonus(6,0);//bonus
+		assertEquals("The score is not correctly calculated, should be 133",133,BowlingGame.score());}}
+
+
 	
 
 
