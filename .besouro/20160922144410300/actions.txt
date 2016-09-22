@@ -41,3 +41,4 @@ RefactoringAction 1474546702623 TestBowling.java RENAME add_frames=>void add_2fr
 RefactoringAction 1474546705136 TestBowling.java RENAME add_2frames=>void add_2frames() METHOD
 EditAction 1474546925278 Frame.java 808 6 11 0
 EditAction 1474546925401 TestBowling.java 1288 7 16 6
+EditAction 1474546925511 BowlingGame.java 758 4 5 0
