@@ -25,3 +25,10 @@ UnitTestSessionAction 1474545941355 TestBowling.java FAIL
 RefactoringAction 1474545952669 TestBowling.java ADD void Spare_istrue()/2 METHOD
 RefactoringAction 1474545958187 TestBowling.java RENAME Spare_istrue()/2=>void Spare_isFalse() METHOD
 EditAction 1474545985504 TestBowling.java 721 4 7 3
+UnitTestCaseAction 1474545985796 TestBowling.java FAIL
+UnitTestSessionAction 1474545985796 TestBowling.java FAIL
+RefactoringAction 1474545999287 TestBowling.java ADD void Spare_istrue()/2 METHOD
+RefactoringAction 1474545999288 TestBowling.java ADD void Spare_isFalse()/2 METHOD
+RefactoringAction 1474546004303 TestBowling.java RENAME Spare_istrue()/2=>void Strike_istrue() METHOD
+RefactoringAction 1474546008319 TestBowling.java RENAME Spare_isFalse()/2=>void Strike_isFalse() METHOD
+EditAction 1474546044454 TestBowling.java 1058 6 11 5

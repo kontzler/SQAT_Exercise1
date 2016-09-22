@@ -29,5 +29,17 @@ public class TestBowling {
 		Frame frame = new Frame(4,5);
 		assertEquals("The shot is not spare but get detected as one", false, frame.isSpare());
 	}
+	
+	@Test
+	public void Strike_istrue() {
+		Frame frame = new Frame(10,0);
+		assertEquals("The strike is not correctly detected", true, frame.isStrike());
+	}
+	
+	@Test
+	public void Strike_isFalse() {
+		Frame frame = new Frame(4,1);
+		assertEquals("The shot is not a strike but get detected as one", false, frame.isStrike());
+	}
 
 }
