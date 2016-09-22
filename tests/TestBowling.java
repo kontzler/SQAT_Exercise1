@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 
+
+
 import org.junit.Test;
 
 public class TestBowling {
@@ -35,6 +37,12 @@ public class TestBowling {
 		Frame frame = new Frame(4,1);
 		assertEquals("The shot is not a strike but get detected as one", false, frame.isStrike());
 	}
+	 public void add_frame(){
+		 BowlingGame BowlingGame = new BowlingGame();
+		 BowlingGame.
+		 
+	 }
+	
 	
 	@Test
 	public void add_2frames(){
@@ -42,7 +50,7 @@ public class TestBowling {
 		
 		BowlingGame.addFrame(new Frame(4,5));
 		BowlingGame.addFrame(new Frame(8,1));
-		assertEquals("The frames didn't get implemented correctly",18, frames.get(0).score()+frames.get(1).score());
+		assertEquals("The frames didn't get implemented correctly",18, BowlingGame.frames.get(0).score()+BowlingGame.frames.get(1).score());
 		
 	}
 
