@@ -18,7 +18,7 @@ public class Frame extends BowlingException{
 
 	//returns the score of a single frame
 	public int score() {
-		if (this.firstThrow+this.secondThrow>10);
+		if (this.firstThrow+this.secondThrow>10)return 10;
 		if (this.isStrike()==true)return 10;
 		if (this.isSpare()==true)return 10;
 		return this.firstThrow+this.secondThrow;
