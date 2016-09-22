@@ -85,3 +85,13 @@ EditAction 1474547822714 TestBowling.java 1521 8 20 7
 UnitTestCaseAction 1474547822996 TestBowling.java FAIL
 UnitTestSessionAction 1474547822997 TestBowling.java FAIL
 EditAction 1474547833365 TestBowling.java 1520 8 20 7
+UnitTestCaseAction 1474547833652 TestBowling.java FAIL
+UnitTestSessionAction 1474547833652 TestBowling.java FAIL
+RefactoringAction 1474547899509 TestBowling.java ADD void strike FIELD
+RefactoringAction 1474547902521 TestBowling.java RENAME strike=>void strike_score FIELD
+RefactoringAction 1474547904032 TestBowling.java RENAME strike_score=>void strike_score_ FIELD
+RefactoringAction 1474547908045 TestBowling.java RENAME strike_score_=>void strike_score_36 FIELD
+RefactoringAction 1474547909057 TestBowling.java RENAME strike_score_36=>void strike_score_ FIELD
+RefactoringAction 1474547910069 TestBowling.java RENAME strike_score_=>void strike_score_28 FIELD
+RefactoringAction 1474547911582 TestBowling.java RENAME strike_score_28=>void strike_score_28() METHOD
+EditAction 1474548043960 TestBowling.java 1747 9 23 8

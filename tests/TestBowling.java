@@ -44,16 +44,23 @@ public class TestBowling {
 		 
 	 }
 	
-	
 	@Test
 	public void add_2frames(){
 		BowlingGame BowlingGame = new BowlingGame();
 		
 		BowlingGame.addFrame(new Frame(9,0));
 		BowlingGame.addFrame(new Frame(8,1));
-		System.out.print(BowlingGame.score());
 		assertEquals("The frames didn't get implemented correctly",18, BowlingGame.score());
 		
 	}
+	
+	public void strike_score_28(){
+		BowlingGame BowlingGame= new BowlingGame();
+		BowlingGame.addFrame(new Frame(10,0));
+		BowlingGame.addFrame(new Frame(3,3));
+		assertEquals("The score is not correctly calculated, should be 22",22,BowlingGame.score());
+		
+	}
+	
 
 }
