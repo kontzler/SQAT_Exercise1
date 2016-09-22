@@ -13,3 +13,4 @@ RefactoringAction 1474545652610 TestBowling.java RENAME Score_firstthrow1_()=>vo
 RefactoringAction 1474545654122 TestBowling.java RENAME Score_firstthrow1_secondthro()=>void Score_firstthrow1_secondthrow4() METHOD
 EditAction 1474545801352 Frame.java 808 6 11 0
 EditAction 1474545801603 TestBowling.java 394 2 3 1
+EditAction 1474545801780 BowlingGame.java 645 4 2 0
