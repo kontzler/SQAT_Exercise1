@@ -130,3 +130,6 @@ RefactoringAction 1474548879366 TestBowling.java ADD void bonus_score_strike_16(
 RefactoringAction 1474548883374 TestBowling.java RENAME bonus_score_strike_16()/2=>void bonus_score_s_16() METHOD
 RefactoringAction 1474548885384 TestBowling.java RENAME bonus_score_s_16()=>void bonus_score_spare_16() METHOD
 EditAction 1474548907671 TestBowling.java 3114 11 49 10
+UnitTestCaseAction 1474548907966 TestBowling.java FAIL
+UnitTestSessionAction 1474548907966 TestBowling.java FAIL
+EditAction 1474548967255 BowlingGame.java 1053 4 6 0
