@@ -143,3 +143,21 @@ RefactoringAction 1474549047692 TestBowling.java RENAME Test_game()=>void Test_g
 RefactoringAction 1474549049709 TestBowling.java RENAME Test_game_score()=>void Test_game_score133() METHOD
 EditAction 1474549111799 TestBowling.java 3788 12 62 11
 EditAction 1474549111934 BowlingGame.java 1030 4 6 0
+UnitTestCaseAction 1474549112234 TestBowling.java FAIL
+UnitTestSessionAction 1474549112234 TestBowling.java FAIL
+FileOpenedAction 1474549174568 BowlingException.java 58 0 0 0
+RefactoringAction 1474549245617 BowlingException.java ADD void FramesScoreHigh() METHOD
+RefactoringAction 1474549504311 BowlingException.java REMOVE FramesScoreHigh() METHOD
+RefactoringAction 1474549547363 BowlingException.java ADD Frame Too FIELD
+RefactoringAction 1474549548871 BowlingException.java RENAME Too=>Frame TooHigh FIELD
+RefactoringAction 1474549549878 BowlingException.java RENAME TooHigh=>Frame TooHigh() METHOD
+RefactoringAction 1474549561403 BowlingException.java RENAME TooHigh()=>Frame TooHigh FIELD
+RefactoringAction 1474549625167 Frame.java ADD extend BowlingException FIELD
+RefactoringAction 1474549635679 Frame.java REMOVE BowlingException FIELD
+RefactoringAction 1474549638689 Frame.java ADD extend BowlingException FIELD
+RefactoringAction 1474549650209 Frame.java REMOVE BowlingException FIELD
+RefactoringAction 1474549967687 TestBowling.java ADD void add_frame()/2 METHOD
+RefactoringAction 1474549972707 TestBowling.java RENAME add_frame()/2=>void frames() METHOD
+RefactoringAction 1474549974722 TestBowling.java RENAME frames()=>void frames_score() METHOD
+RefactoringAction 1474549977242 TestBowling.java RENAME frames_score()=>void frames_score_toohigh() METHOD
+EditAction 1474549990493 Frame.java 926 6 12 0

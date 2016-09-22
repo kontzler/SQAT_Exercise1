@@ -1,4 +1,5 @@
-public class Frame {
+public class Frame extends BowlingException{
+
 	private int firstThrow;
 	private int secondThrow;
 	
@@ -16,7 +17,8 @@ public class Frame {
 	}
 
 	//returns the score of a single frame
-	public int score(){
+	public int score() throws Frame{
+		if (this.firstThrow+this.secondThrow>10)throw TooHigh;
 		if (this.isStrike()==true)return 10;
 		if (this.isSpare()==true)return 10;
 		return this.firstThrow+this.secondThrow;
