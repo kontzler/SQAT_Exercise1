@@ -197,3 +197,5 @@ RefactoringAction 1474550468347 TestBowling.java RENAME test_getsecond()=>void t
 RefactoringAction 1474550492968 TestBowling.java RENAME test_getsecondthrow()=>void test_getsecondthrow_4() METHOD
 RefactoringAction 1474550621126 TestBowling.java REMOVE test() METHOD
 EditAction 1474550624902 TestBowling.java 4111 13 65 13
+UnitTestCaseAction 1474550625187 TestBowling.java OK
+UnitTestSessionAction 1474550625187 TestBowling.java OK
