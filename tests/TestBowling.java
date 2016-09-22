@@ -14,8 +14,14 @@ public class TestBowling {
 	public void Score_firstthrow1_secondthrow4() {
 		//BowlingGame BowlingGame =new BowlingGame();
 		Frame frame =new Frame(1, 4);
-		assertEquals("The socre is not correct, expected 5", 5, frame.score());
+		assertEquals("The score is not correct, expected 5", 5, frame.score());
 		
 		
 	}
+	@Test
+	public void Spare_istrue() {
+		Frame frame = new Frame(5,5);
+		assertEquals("The spare is not correctly detected", true, frame.isSpare());
+	}
+
 }

@@ -14,3 +14,9 @@ RefactoringAction 1474545654122 TestBowling.java RENAME Score_firstthrow1_second
 EditAction 1474545801352 Frame.java 808 6 11 0
 EditAction 1474545801603 TestBowling.java 394 2 3 1
 EditAction 1474545801780 BowlingGame.java 645 4 2 0
+UnitTestCaseAction 1474545803001 TestBowling.java FAIL
+UnitTestSessionAction 1474545803002 TestBowling.java FAIL
+RefactoringAction 1474545826781 TestBowling.java ADD void test()/2 METHOD
+RefactoringAction 1474545832793 TestBowling.java RENAME test()/2=>void Spare() METHOD
+RefactoringAction 1474545836307 TestBowling.java RENAME Spare()=>void Spare_istrue() METHOD
+EditAction 1474545941019 TestBowling.java 551 3 5 2
