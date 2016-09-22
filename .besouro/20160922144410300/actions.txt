@@ -176,3 +176,4 @@ RefactoringAction 1474550057027 BowlingException.java RENAME TooHigh()=>Frame To
 RefactoringAction 1474550183082 BowlingException.java REMOVE TooHigh FIELD
 EditAction 1474550204081 Frame.java 901 6 12 0
 EditAction 1474550204222 BowlingGame.java 1031 4 6 0
+EditAction 1474550204330 BowlingException.java 65 0 0 0
