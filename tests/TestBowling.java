@@ -39,7 +39,8 @@ public class TestBowling {
 	}
 	 public void add_frame(){
 		 BowlingGame BowlingGame = new BowlingGame();
-		 BowlingGame.
+		 BowlingGame.addFrame(new Frame(1,2));
+		 assertEquals("The frame wasn't implemented right",3,BowlingGame.score());
 		 
 	 }
 	
@@ -48,9 +49,9 @@ public class TestBowling {
 	public void add_2frames(){
 		BowlingGame BowlingGame = new BowlingGame();
 		
-		BowlingGame.addFrame(new Frame(4,5));
+		BowlingGame.addFrame(new Frame(10,0));
 		BowlingGame.addFrame(new Frame(8,1));
-		assertEquals("The frames didn't get implemented correctly",18, BowlingGame.frames.get(0).score()+BowlingGame.frames.get(1).score());
+		assertEquals("The frames didn't get implemented correctly",19, BowlingGame.score());
 		
 	}
 
